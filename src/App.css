@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
+.header_navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.header_navigation div {
+    margin: 10px 10px
+}
+
+menu {
+    padding-inline-start: 0px;
+}
+
+.main__exchange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+table {
+    color: #256e6c;
+    border-spacing: 15px 10px;
+
+}
+
+th,
+td {
+    border-radius: 11px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: thick double rgb(134, 21, 210);
+    background: linear-gradient(90deg, rgb(208, 253, 249) 0%, rgb(186, 252, 235) 41%, rgb(247, 201, 252) 84%);
+}
+
+tbody tr {
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+/* tbody tr:hover{
+    transform: scale(1.1, 1.1);
+    color:#256e6c;
+} */
+.main__converter,
+.main__exchange h2 {
+    color: #54c18c;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+}
+
+
+.material-symbols-outlined #active {
+    color: rgb(1, 14, 190);
+}
+
+.converter-item-one,
+.converter-item-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.converter-submit {
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 20px;
+    border: thick double #32a1ce;
+    background: radial-gradient(circle, rgb(190, 187, 250) 0%, rgb(174, 255, 217) 36%, rgb(174, 233, 245) 100%);
+}
+
+.converter-input {
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 20px;
+    max-width: 100px;
+    border: dotted 2px #872689
+}
+
+.converter-label-input {
+    display: flex;
+    align-items: baseline;
+    min-width: 320px;
+    justify-content: space-between;
+}
+
+.converter-select-valute {
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: dashed rgb(149, 31, 192);
+}
+
+.converter-option {
+    padding: 15px 40px;
+    background: linear-gradient(90deg, rgb(182, 180, 224) 0%, rgb(194, 224, 236) 41%, rgb(222, 252, 195) 84%);
+    border: 3px solid rgb(62, 176, 159);
+    border-radius: 20px;
+}
